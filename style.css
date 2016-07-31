@@ -11,25 +11,25 @@ body {
 }
 
 header {
+	background: url("fb_homepage_circles.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
 	padding: 20px;
 	font-size: 2em;
-	height: 200px;
+	height: 100vh;
 	text-align: center;
 }
 
-.inline-block {
-	display: flex;
-	margin-top: 15px;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.inline-block > h2 {
-	margin: 0;
+h4 {
+	margin: 3px;
+	font-size: 1.15em;
 }
 
 
 .header-logo {
+	position: relative;
+	top: 40vh;
 	margin: auto;
 	width: 150px;
 	display: flex;
@@ -46,6 +46,8 @@ header {
 
 
 .main-subdiv {
+	margin-top: 100px;
+	box-sizing: border-box;
 	display: flex;
 	width: 100%;
 	justify-content: center;
@@ -62,7 +64,6 @@ header {
 }
 
 .core-val img {
-	/*margin-top: 10px;*/
 	height: 70%;
 }
 
@@ -73,30 +74,49 @@ header {
 
 .img {
 	height: 110px;
-	border-radius: 50%;
+	border-radius: 50%;	
 }
 
-.email-icon {
+
+.border-lead {
+	border: 3px solid #FFBE2B;
+}
+
+.border-ux {
+	border: 3px solid #50E3C2;
+}
+
+.border-ui {
+	border: 3px solid #D01D1B;
+}
+
+.border-fed {
+	border: 3px solid #23DEF5;
+}
+
+/*.email-icon {
 	height: 30px;
 	width: 30px;
 	background-image: url("node_modules/ibm-design-icons/dist/png/object-based/email_24.png");
 	background-position: center;
 	background-repeat: no-repeat;
-}
+}*/
 
 .member {
+	color: #4A4A4A;
+	text-align: center;
 	padding: 10px;
-	margin: 10px;
-	background: lightgray;
-	/*border: 1px solid black;*/
-	width: 21%;
+	margin: 8px;
+	width: 20%;
 	height: 100%;
 }
 
 
 .member > p {
 	font-size: .95em;
+	line-height: 50%;
 }
+
 
 footer {
 	/*border: 1px solid lime;*/
