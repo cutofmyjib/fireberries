@@ -1,0 +1,104 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Roboto Slab', serif;
+}
+
+header {
+	padding: 20px;
+	font-size: 2em;
+	height: 200px;
+	text-align: center;
+}
+
+.inline-block {
+	display: flex;
+	margin-top: 15px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.inline-block > h2 {
+	margin: 0;
+}
+
+
+.header-logo {
+	margin: auto;
+	width: 150px;
+	display: flex;
+	justify-content: center;
+}
+
+.header-logo img {
+	height: 180px;
+}
+
+.main {
+	height: 500px;
+}
+
+
+.main-subdiv {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	flex-flow: wrap;
+}
+
+.core-val {
+	background: #233C5a;
+	width: 100%;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.core-val img {
+	/*margin-top: 10px;*/
+	height: 70%;
+}
+
+.img-container {
+	display: flex;
+	justify-content: center;
+}
+
+.img {
+	height: 110px;
+	border-radius: 50%;
+}
+
+.email-icon {
+	height: 30px;
+	width: 30px;
+	background-image: url("node_modules/ibm-design-icons/dist/png/object-based/email_24.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.member {
+	padding: 10px;
+	margin: 10px;
+	background: lightgray;
+	/*border: 1px solid black;*/
+	width: 21%;
+	height: 100%;
+}
+
+
+.member > p {
+	font-size: .95em;
+}
+
+footer {
+	/*border: 1px solid lime;*/
+	/*height: 150px;*/
+}
