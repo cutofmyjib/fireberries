@@ -7,19 +7,24 @@
     <link rel="stylesheet" href="style.css">
   	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    
   </head>
   <body class="container">
   	<header>
-    	<div class="header-logo">
-  	  	<img src="fireberries_logo_2.png">
-    	</div>
-      <div class="more">
-        <img src="forward_64.svg">
+      <div class="header-logo">
+        <img src="fireberries_logo_2.png">
       </div>
   	</header>
-
+    <div class="holder">
+      <div class="arrow bounce">
+        <img src="forward_64.svg">
+      </div>
+    </div>
   	<div class="main">
+      <div class="main-subdiv">
+        <h1>Meet the Fireberries</h1>
+      </div>
   		<div class="main-subdiv">
         <div class="member">
           <div class="img-container">
@@ -127,4 +132,23 @@
   	</footer>
 
   </body>
+  <script>
+    var scrollTop = 0;
+    $(window).scroll(function(event){
+      
+      var currentScroll = $(this).scrollTop();
+      
+      if (Math.abs(scrollTop - currentScroll) <= 5 )
+        return;
+
+      if (currentScroll > scrollTop) {
+        //hide 
+        $('.arrow').css('display', 'none')
+        console.log('hello')  
+      } else {
+       $('.arrow').css('display', 'block') 
+      }
+      scrollTop = currentScroll;
+    });
+  </script>
 </html>
