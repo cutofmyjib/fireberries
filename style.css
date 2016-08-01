@@ -11,7 +11,7 @@ body {
 }
 
 header {
-	background: url("fb_homepage_circles.png");
+	background: url("fb_homepage_circles_white.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
@@ -119,6 +119,65 @@ h4 {
 
 
 footer {
-	/*border: 1px solid lime;*/
-	/*height: 150px;*/
+	box-sizing: border-box;
+	display: flex;
+	height: 800px;
 }
+
+.footer-subdiv {
+	box-sizing: border-box;
+	background: #4A4A4A;
+	height: 100%;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-subdiv h1 {
+	margin: 0;
+	font-size: 5em;
+}
+
+.footer-subdiv-subdiv {
+	color: white;
+	height: 50%;
+	padding: 20px;
+}
+
+.footer-subdiv-subdiv p {
+	font-size: 16px;
+	line-height: 175%;
+}
+
+.footer-fun {
+	background-image: url(https://scontent-sjc2-1.xx.fbcdn.net/t31.0-8/13765854_10153774152958519_5606652967621769075_o.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.blue-bg {
+	display: flex;
+	align-items: center;
+	background: #23DEF5;
+}
+
+.dash {
+	font-size: 74px;
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.more {
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+
+	height: 40px;
+	width: 40px;
+}
+
+
