@@ -8,7 +8,7 @@
   	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    
+
   </head>
   <body class="container">
   	<header>
@@ -23,7 +23,7 @@
     </div>
   	<div class="main">
       <div class="main-subdiv">
-        <h1>Meet the Fireberries</h1>
+        <h1>Meet the Fireberries!</h1>
       </div>
   		<div class="main-subdiv">
         <div class="member">
@@ -32,7 +32,7 @@
           </div>
           <h4>Kathryn McElroy</h4>
           <p>Section Lead</p>
-          <p>Watson Core</p>  
+          <p>Watson Core</p>
         </div>
   			<div class="member">
   				<div class="img-container">
@@ -112,20 +112,18 @@
             <span class="dash">&#8212</span>
           </h2>
           <p>
-          Listen actively to others<br>
-          Don’t fall in love (with your ideas)<br>
-          The parking lot is always open<br>
-          Clean up after yourself<br>
-          Give everyone a chance to share and present<br>
-          Be on time, work efficiently<br>
-          Have fun<br>
-          Listen actively to others<br>
-          Don’t fall in love (with your ideas)<br>
-          The parking lot is always open<br>
-          Clean up after yourself<br>
-          Give everyone a chance to share and present<br>
-          Be on time, work efficiently<br>
-          Have fun<br>
+          Listen actively to others <br>
+          Don’t fall in love (with your ideas) <br>
+          The parking lot is always open <br>
+          Clean up after yourself <br>
+          Give everyone a chance to share and present <br>
+          Be on time, work efficiently <br>
+          R.E.S.P.E.C.T <br>
+          Ask questions! <br>
+          Don’t go to bed angry <br>
+          Teach to fish <br>
+          A.M. Standups everyday <br>
+          Have fun! <br>
           <p>
         </div>
       </div>
@@ -135,18 +133,18 @@
   <script>
     var scrollTop = 0;
     $(window).scroll(function(event){
-      
+
       var currentScroll = $(this).scrollTop();
-      
+
       if (Math.abs(scrollTop - currentScroll) <= 5 )
         return;
 
       if (currentScroll > scrollTop) {
-        //hide 
+        //hide
+        console.log(currentScroll)
         $('.arrow').css('display', 'none')
-        console.log('hello')  
       } else {
-       $('.arrow').css('display', 'block') 
+        $('.arrow').css('display', 'block')
       }
       scrollTop = currentScroll;
     });

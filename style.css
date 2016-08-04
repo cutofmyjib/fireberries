@@ -47,6 +47,7 @@ h4 {
 	width: 100%;
 	justify-content: center;
 	flex-flow: wrap;
+	margin-bottom: 80px;
 }
 
 .main-subdiv h1 {
@@ -60,7 +61,7 @@ h4 {
 
 .img {
 	height: 110px;
-	border-radius: 50%;	
+	border-radius: 50%;
 }
 
 
@@ -79,14 +80,6 @@ h4 {
 .border-fed {
 	border: 3px solid #23DEF5;
 }
-
-/*.email-icon {
-	height: 30px;
-	width: 30px;
-	background-image: url("node_modules/ibm-design-icons/dist/png/object-based/email_24.png");
-	background-position: center;
-	background-repeat: no-repeat;
-}*/
 
 .member {
 	color: #4A4A4A;
@@ -126,7 +119,7 @@ footer {
 }
 
 .footer-subdiv-subdiv h1 {
-	margin-top: 12px;
+	margin-top: 76px;
 	font-size: 5em;
 }
 
@@ -140,7 +133,7 @@ footer {
 }
 
 .footer-fun {
-	background-image: url(https://scontent-sjc2-1.xx.fbcdn.net/t31.0-8/13765854_10153774152958519_5606652967621769075_o.jpg);
+	background-image: url(fireberries.JPG);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -180,7 +173,7 @@ footer {
 
 .bounce {
   left: 48%;
-  margin-top: 53%;
+  margin-top: 48%;
   height: 50px;
   width: 50px;
   -webkit-animation:bounce 1s infinite;
